@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Semantic Elements</title>
+		<style type="text/css">
+            #diva{
+                min-height: 200px;
+                width: 200px;
+                background-color: rgba(255,0,0,0.5);
+                position: relative;
+                top: -30px;
+
+            }
+            #divb{
+                min-height: 250px;
+                width: 250px;
+                background-color: rgba(0, 255, 0,0.5);
+            }
+            #goup{
+                border:1px solid black;
+                width:50px;
+                position:fixed;
+                bottom:5px;
+                right:5px;
+                border-radius:20px;
+                padding:5px;
+                background-color: rgba(0,255,0,0.5);
+            }
+            a{
+                text-decoration: none;
+            }
+            header{
+                position: relative;
+                top:80px;
+            }
+            #banner{
+                height: 300px;
+                background-image: url("images/banner.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            #headingone{
+                position: absolute;
+                top: 120px;
+                left:550px;
+                color: white;
+            }
+            #topmenu li{
+                display: inline-block;
+                padding: 0 5px;
+            }
+            #topmenu li a{
+                text-decoration: none;
+            }
+            nav{
+                position: fixed;
+                z-index: 2;
+                background-color: skyblue;
+                width: 100%;
+                top:0px;
+
+            }
+        </style>
+	</head>
+<body>
+    <nav>
+    <ul id="topmenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Stats</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">Subscribe</a></li>
+        
+    </ul>
+    </nav>
+    <header>
+        <div id="banner"></div>
+        <h2 id="headingone">Introduction To Css</h2>
+    </header>
+    <div>
+        <h2>Welcome to Moat Academy</h2>
+        <p>Welcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat AcademyWelcome to Moat Academy</p>
+        <img src="images/biz.jpg" width="400px">
+    </div>
+    <div id="diva">Div A</div>
+    <div divb>Div B</div>
+    <div id="goup"><a href="#top">Go Up</a></div>
+</body>
+</html>

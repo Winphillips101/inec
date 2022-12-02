@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment</title>
+
+    <style type="text/css">
+        #banner{
+            border: 1px solid black;
+            height: 600px;
+            background-image: url("images/banner.jpg");
+            background-size: cover;
+            position:fixed
+        
+        }
+        .fade{
+            background-color:rgba(0, 0, 0, 0.64);
+            height: 600px; 
+        }
+        img{
+            width: 25px;
+            height: 30px;
+            margin-left: 150px;
+            padding-top: 30px;
+            
+        }
+        #fix{
+            display: inline-block;
+            color: white;
+            font-weight: bold;
+            
+        }
+        #nav {
+            width: 90%;
+            position: absolute;
+            top: 0;
+            
+        }
+        ul li{
+                display:inline-block;
+				width: 100px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        ul{
+            text-align: right;
+            padding: 30px;
+            
+        }
+        #text{
+
+            width: 500px;
+            color: white;
+            margin-left: 25px;
+            margin-top: 150px;
+        }
+        #form{
+            width:300px;
+            height: 400px;
+            margin-top: 70px;
+            background-color: white;
+        }
+        .sidebyside{
+                    display: flex;
+                    justify-content: space-around;
+        }
+        h3{
+            text-align: center;
+            color: rgb(119, 112, 112);
+        }
+        input{
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            background-color: gainsboro;
+            
+        }
+        form{
+            
+            text-align: center;
+            min-height: 100%;
+            background-color: whitesmoke;
+        }
+        select{
+            width: 54%;
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            background-color: gainsboro;
+            color: grey;
+        }
+        .start{
+                width: 54%;
+                margin: 10px;
+                padding: 10px;
+                border:none;
+                background-color: rgb(255, 0, 140);
+        }
+        span{
+            color:red;
+        }
+        #best{
+            color: rgb(214, 204, 204);
+            font-weight: lighter;
+            
+        }
+        .read{
+            border: p2x solid white;
+            margin: 5px;
+            width: 30%;
+            background-color: transparent;
+            padding: 10px;
+            color: white;
+            
+        }
+        
+        
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <div id="banner">
+
+            
+
+            <div class="fade">
+                <img src="images/gift.png">
+                <span id="fix">Match Fix</span>
+            <div id="nav">   
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Stats</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Subscribe</a></li>
+                
+            </ul>
+            </div> 
+            <div class="sidebyside">
+                <div id="text">
+                    <h1>Matrimonial Search.</h1>
+                    <h1 id="best">Best Matching Couples</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+                    <button class="read">Read More</button>
+                </div>
+                <div id="form">
+                    <form>
+                        <h3>Register & Join Our Matrimony</h3>
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email Id">
+                        <input type="text" placeholder="Your Name">
+                        <input type="number" placeholder="Contact Number"><br>
+                        <select>
+                                <option>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                        </select>
+                        <button class="start">Get Started</button>
+                        <p>By registering you agree to our <span>terms & conditions</span></p>
+                        
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+</body>
+</html>
